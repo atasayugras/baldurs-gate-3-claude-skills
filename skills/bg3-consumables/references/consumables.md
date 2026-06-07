@@ -1,6 +1,6 @@
 ---
 patch: "7.x"
-source: community + playtest
+source: community + playtest + bg3.wiki
 ---
 
 # BG3 - Consumables Reference
@@ -28,9 +28,14 @@ Last until long rest. Only one elixir can be active at a time - drinking a new o
 | **Elixir of Necrotic Resistance** | Resistance to Necrotic damage | Alchemy | Against Cazador, Apostle of Myrkul, Balthazar |
 | **Elixir of Psionic Fortification** | Resistance to Psychic damage + Madness immunity | Alchemy | Against Mind Flayers, Nere, Netherbrain |
 | **Elixir of Stone Giant Strength** | STR 23 | Alchemy | Middle option between Hill and Cloud Giant |
-| **Elixir of Universal Resistance** | Resistance to all damage types | Alchemy (rare) | Reserve for extremely dangerous encounters; ingredients are scarce |
-| **Elixir of Viciousness** | Critical hits on 19-20 (instead of 20) | Alchemy | For melee/ranged DPS to increase burst damage |
-| **Elixir of Vigilance** | +5 Initiative, Surprise immune | Alchemy | Against Gortash (+10 initiative helps), W'wargaz, and fast-opening bosses |
+| **Elixir of Universal Resistance** | Resistance to all damage types | Alchemy (Divine Bone Shard) | Reserve for extremely dangerous encounters; ingredients are scarce |
+| **Elixir of Viciousness** | Critical hits on 19-20 (instead of 20) | Alchemy (Shadowroot Sac) | For melee/ranged DPS to increase burst damage |
+| **Elixir of Vigilance** | +5 Initiative, Surprise immune | Alchemy (Hook) | Against Gortash (+10 initiative helps), W'wargaz, and fast-opening bosses |
+| **Elixir of Guileful Movement** | Freedom of Movement (ignores difficult terrain, Paralysis/Restraint immunity) | Alchemy (Ochre Jelly Slime) | Counters Ensnaring Strike, Web, Hold Person - great in control-heavy fights |
+| **Elixir of Peerless Focus** | Advantage on Concentration saves + magical sleep immunity | Alchemy (Belladonna) | Alternative to Bear's Endurance for concentration protection |
+| **Elixir of See Invisibility** | See Invisible creatures | Alchemy (Nothic Eye) | Against invisible enemies (Orin, shadows, certain ambushes) |
+| **Elixir of Arcane Cultivation (Level 2/3/4)** | Recover a spell slot of that level | Alchemy (Laculite / Night Orchid / Beholder Iris) | Higher-tier versions recover higher slots; much better for end-game casters |
+| **Tadpole Elixir** | Grants Illithid power-like buffs for one rest | Alchemy (Tongue of Madness) | Not sold in shops - craft only; use if you want Illithid effects without spending tadpoles |
 
 ---
 
@@ -69,9 +74,14 @@ Thrown with the Throw action. AoE effects vary - always check boss immunity/resi
 | **Oil of Combustion Flask** | Creates a flammable fuel surface | Large | Alchemy | Combo with Alchemist's Fire or Fireball; lay fuel, then ignite |
 | **Poison Vial** | Poison damage + Poisoned (CON save) | Small/Med | Alchemy / Shop | ⚠️ Useless against Poison immune (undead, constructs) |
 | **Runepowder Bomb** | Massive explosion | Large | Act 1 - Grymforge (gnome rescue) | Highest single-hit grenade in the game; single use - save for a major boss (Ansur, Gortash, Cazador) |
-| **Smoke Powder Bomb** | Area Heavily Obscured (fog) | Large | Alchemy / Shop | Blocks enemy sight; also affects your party - use carefully |
-| **Tremor Bulb** | Bludgeoning damage + Prone (STR save) | Medium | Alchemy | Prone = Advantage for melee, Disadvantage for ranged; large bosses may resist |
-| **Web Bottle** | Webbed (movement + spell disabled, STR save) | Medium | Alchemy / Shop | Mobility control; large/construct bosses may be immune |
+| **Smoke Powder Bomb** | 3d4+9 Force damage + area fog | Large | Alchemy / Shop | Blocks enemy sight; also affects your party - use carefully |
+| **Tremor Bulb** | Bludgeoning damage + Prone (STR save) | Medium | Alchemy (Omeluum vendor) | Prone = Advantage for melee, Disadvantage for ranged; large bosses may resist |
+| **Web Grenade** | Web surface (10 turns) + Webbed | Medium | Alchemy / Helsik vendor | Mobility control; large/construct bosses may be immune |
+| **Holy Water** | 3d6 Radiant damage vs Fiends/Undead | Small | Looted / bought | Guaranteed vs undead - no immunity possible; useless vs non-fiend/undead |
+| **Void Bulb** | Force damage + pulls enemies 5m (STR save DC 18) | Medium | Omeluum vendor | Repositioning tool; pull enemies off ledges or into AoE |
+| **Flashblinder** | Blinds (10 turns, CON save DC 16) | Small | Craftable / Bumpnagel vendor | Blinded = Disadvantage on attacks; strong opener vs non-Undead bosses |
+| **Sanguine Explosive** | 4d8 Force + 4d8 Fire (DEX save DC 17) | Large | Araj Oblodra vendor | High damage option from Araj; expensive |
+| **Haste Spore Grenade** | Beneficial spore cloud that Hastes allies (3 turns) | Medium | Craftable | Apply to your own party position before combat; Haste = extra action |
 
 ---
 
@@ -88,6 +98,12 @@ Applied to a weapon; activates on the next N attacks (usually 3 attacks or 1 min
 | **Serpent Venom** | On hit: +1d4 Poison damage (3 attacks) | Damage: Poison | Alchemy | ⚠️ Useless vs Poison immune |
 | **Shadow Essence** | On hit: Frightened possible (WIS save) | Status: Frightened | Alchemy / Drop | Frightened = Disadvantage on attacks + movement restricted; some bosses are immune |
 | **Tears of Selune** | On hit: adds Radiant damage | Damage: Radiant | Rare drop | Great vs Cazador (Radiant vulnerable) and Apostle Necromites |
+| **Malice** | On hit: Blinds target (CON save DC 15) | Status: Blinded | Alchemy (Lolth's Candle) | Blinded = Disadvantage on attacks; strong opener coating |
+| **Drow Poison** (coating) | On hit: CON save DC 13 or Unconscious (2 turns) | Status: Unconscious | Alchemy (Swarming Toadstool) | Different from Drow Poison grenade - this is a weapon coating |
+| **Wizardsbane Oil** | On hit: Disrupts spellcasting | Status: Magical disruption | Alchemy (Gremishka Tail) | Use vs enemy casters to interrupt concentration |
+| **Purple Worm Toxin** | On hit: Severe toxin (CON save DC 19) | Damage: Poison | Alchemy (Purple Worm Gullet) | Highest DC poison coating; still useless vs Poison immune |
+| **Wyvern Toxin** | On hit: Venom (CON save DC 15) | Damage: Poison | Alchemy (Wyvern Stinger) | Strong mid-tier poison coating |
+| **Oil of Bane** | On hit: Bane (CHA save DC 11) | Status: Bane (-1d4 attack + saves) | Alchemy (Putrefied Tumour) | Low DC but Bane is party-wide debuff enabler |
 
 ---
 

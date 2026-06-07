@@ -29,6 +29,8 @@ Read DONT.md before running.
 | Party advisor | `/bg3-party` | Party composition, companion roles, synergy patterns |
 | Companion advisor | `/bg3-companion` | Companion quests, approval, romance, missable events |
 | Run planner | `/bg3-run-planner` | Full run roadmap: class, quest order, missable checklist |
+| Camp inventory | `/bg3-camp-inventory` | Track camp chest + inactive companion inventories |
+| Loot reporter | `/bg3-report` | "I found X, what do I do?" - structured loot + event reporting |
 
 ## Routing
 
@@ -46,6 +48,24 @@ Analyze the question and invoke the most relevant sub-skill. If the question spa
 - "Who should I bring" / party synergy → `/bg3-party`
 - Companion romance / approval / companion quest → `/bg3-companion`
 - Full run roadmap → `/bg3-run-planner`
+- "What's in my camp chest" / "where did I store X" → `/bg3-camp-inventory`
+- "I found X, what should I do" / item drop decision → `/bg3-report`
+
+## Data Source Rule
+
+**NEVER web-fetch for BG3 questions.** Always read from local reference files first:
+- Boss data → `skills/bg3-boss/references/bosses.md`
+- Item data → `skills/bg3-items/references/items.md`
+- Build data → `skills/bg3-build/references/builds.md`
+- Quest data → `skills/bg3-quest/references/quests.md`
+- Achievement data → `skills/bg3-achievement/references/achievements.md`
+- Consumables → `skills/bg3-consumables/references/consumables.md`
+- Illithid powers → `skills/bg3-illithid/references/illithid-powers.md`
+- Companions → `skills/bg3-companion/references/companions.md`
+- Party synergies → `skills/bg3-party/references/party-synergies.md`
+- Camp inventory → `skills/bg3-camp-inventory/references/inventory.md`
+
+Only web-fetch if the answer is genuinely not in any reference file AND the user confirms they want live data. State "data not found in local references" before web-fetching.
 
 ## Achievement Priority Rule
 
