@@ -1,6 +1,6 @@
 # Baldur's Gate 3 - Claude Code Skills
 
-![Skills](https://img.shields.io/badge/skills-15-blueviolet?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-14-blueviolet?style=flat-square)
 ![Agents](https://img.shields.io/badge/agents-1-purple?style=flat-square)
 ![Patch](https://img.shields.io/badge/patch-7.x-blue?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Claude%20Code-orange?style=flat-square)
@@ -98,7 +98,6 @@ The agent is invoked automatically when you ask BG3 questions in Claude Code. It
 | `/bg3-achievement` | All achievements, missable warnings, 100% checklist, decision safety |
 | `/bg3-consumables` | Elixirs, potions, grenades, coatings + boss matchup table |
 | `/bg3-illithid` | Tadpole economy, 25 powers, unlock priority by build |
-| `/bg3-mechanics` | Combat mechanics, Concentration, status effects, combos (Darkness, Coffeelock, Assassin) |
 | `/bg3-party` | Party composition, companion roles, synergy archetypes |
 | `/bg3-companion` | Companion quests, approval, romance, missable events (all 10 companions) |
 | `/bg3-run-planner` | Full run roadmap: quest order, companion queue, ongoing tracker |
@@ -170,8 +169,6 @@ Separating skill logic from data means the community can update `references/*.md
 - Full consumables list: elixirs, potions, grenades, coatings, boss matchups
 - All 10 companions: quests, approval, romance, achievement ties
 - Party composition archetypes + companion swap schedule
-- Core game mechanics: Concentration, Darkness combo, Assassin auto-crit, Coffeelock, and more
-
 ---
 
 ## Contributing

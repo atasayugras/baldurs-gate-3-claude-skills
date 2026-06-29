@@ -28,18 +28,18 @@ All data lives in `~/.claude/skills/`. Read the relevant files for each question
 | Illithid powers | `~/.claude/skills/bg3-illithid/references/illithid-powers.md` |
 | Party synergies | `~/.claude/skills/bg3-party/references/party-synergies.md` |
 | Companions | `~/.claude/skills/bg3-companion/references/companions.md` |
-| Mechanics | `~/.claude/skills/bg3-mechanics/references/mechanics.md` |
 | Camp inventory | `~/.claude/skills/bg3-camp-inventory/references/inventory.md` |
 
 ## Personal Data (optional)
 
 If the user has a `personal/` folder in their local repo, check these paths for richer context:
 
+- Mechanics: `personal/knowledge/mechanics.md`
+- Item list: `personal/knowledge/item-list.md`
 - Build reference: look for `personal/playthroughs/*/durge-*-build.md` or similar
 - Current state: `personal/playthroughs/*/current-playthrough.md`
 - Party comps: `personal/playthroughs/*/party-comps.md`
 - Achievement tracker: `personal/playthroughs/*/achievement-tracker.md`
-- Item list: `personal/knowledge/item-list.md`
 
 Use Glob to discover what exists. If personal data is found, silently incorporate it into answers — don't narrate that you found it.
 
